@@ -10,7 +10,6 @@ contributions to the **DRG4FOOD Toolbox**, including:
 
 - a reusable **localisation engine** for culturally and linguistically appropriate content  
 - high-level **parental data-access guidelines** for GDPR-aligned platforms  
-- a placeholder area for future **AI prompt resources**
 
 The components are designed to support responsible, transparent and adaptable
 digital nutrition applications for children and families.
@@ -31,7 +30,6 @@ safenutrikids/
 │   └── tests/
 │
 ├── parental-access/           # documentation-only guidelines
-├── ai-prompts/                # placeholder for future prompt library
 ├── pyproject.toml             # package configuration
 └── README.md                  # (this file)
 ```
@@ -81,10 +79,6 @@ See: `localisation/README.md`
 Documentation-only resource outlining responsible structures for parental access
 to children’s data in GDPR-aligned platforms.  
 See: `parental-access/README.md`
-
-### **AI Prompt Library (Placeholder)**
-Reserved for future example prompts and resources.  
-See: `ai-prompts/README.md`
 
 ---
 
