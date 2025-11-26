@@ -1,5 +1,9 @@
 # SafeNutriKids
 
+![Release](https://img.shields.io/github/v/release/DRG4FOOD/safenutrikids)
+![License](https://img.shields.io/badge/license-MIT-blue.svg)
+![Python Version](https://img.shields.io/badge/python-3.10+-blue.svg)
+
 SafeNutriKids is a DRG4FOOD Open Call project advancing **AI-driven, child-centred
 nutrition education**. This repository provides the project’s open-source
 contributions to the **DRG4FOOD Toolbox**, including:
