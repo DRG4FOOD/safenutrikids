@@ -1,0 +1,177 @@
+[
+  {
+    "language_code": "bg",
+    "language_en": "Bulgarian",
+    "autonym": "Български",
+    "script": "Cyrillic",
+    "notes": ""
+  },
+  {
+    "language_code": "cs",
+    "language_en": "Czech",
+    "autonym": "Čeština",
+    "script": "Latin",
+    "notes": ""
+  },
+  {
+    "language_code": "da",
+    "language_en": "Danish",
+    "autonym": "Dansk",
+    "script": "Latin",
+    "notes": ""
+  },
+  {
+    "language_code": "de",
+    "language_en": "German",
+    "autonym": "Deutsch",
+    "script": "Latin",
+    "notes": ""
+  },
+  {
+    "language_code": "el",
+    "language_en": "Greek",
+    "autonym": "Ελληνικά",
+    "script": "Greek",
+    "notes": ""
+  },
+  {
+    "language_code": "en",
+    "language_en": "English",
+    "autonym": "English",
+    "script": "Latin",
+    "notes": "Widely used as second language"
+  },
+  {
+    "language_code": "es",
+    "language_en": "Spanish",
+    "autonym": "Español",
+    "script": "Latin",
+    "notes": ""
+  },
+  {
+    "language_code": "et",
+    "language_en": "Estonian",
+    "autonym": "Eesti",
+    "script": "Latin",
+    "notes": ""
+  },
+  {
+    "language_code": "fi",
+    "language_en": "Finnish",
+    "autonym": "Suomi",
+    "script": "Latin",
+    "notes": ""
+  },
+  {
+    "language_code": "fr",
+    "language_en": "French",
+    "autonym": "Français",
+    "script": "Latin",
+    "notes": ""
+  },
+  {
+    "language_code": "ga",
+    "language_en": "Irish",
+    "autonym": "Gaeilge",
+    "script": "Latin",
+    "notes": "Uses Latin script with diacritics"
+  },
+  {
+    "language_code": "hr",
+    "language_en": "Croatian",
+    "autonym": "Hrvatski",
+    "script": "Latin",
+    "notes": ""
+  },
+  {
+    "language_code": "hu",
+    "language_en": "Hungarian",
+    "autonym": "Magyar",
+    "script": "Latin",
+    "notes": ""
+  },
+  {
+    "language_code": "it",
+    "language_en": "Italian",
+    "autonym": "Italiano",
+    "script": "Latin",
+    "notes": ""
+  },
+  {
+    "language_code": "lt",
+    "language_en": "Lithuanian",
+    "autonym": "Lietuvių",
+    "script": "Latin",
+    "notes": ""
+  },
+  {
+    "language_code": "lv",
+    "language_en": "Latvian",
+    "autonym": "Latviešu",
+    "script": "Latin",
+    "notes": ""
+  },
+  {
+    "language_code": "mt",
+    "language_en": "Maltese",
+    "autonym": "Malti",
+    "script": "Latin",
+    "notes": "Semitic language written in Latin script"
+  },
+  {
+    "language_code": "nl",
+    "language_en": "Dutch",
+    "autonym": "Nederlands",
+    "script": "Latin",
+    "notes": ""
+  },
+  {
+    "language_code": "pl",
+    "language_en": "Polish",
+    "autonym": "Polski",
+    "script": "Latin",
+    "notes": ""
+  },
+  {
+    "language_code": "pt",
+    "language_en": "Portuguese",
+    "autonym": "Português",
+    "script": "Latin",
+    "notes": ""
+  },
+  {
+    "language_code": "ro",
+    "language_en": "Romanian",
+    "autonym": "Română",
+    "script": "Latin",
+    "notes": ""
+  },
+  {
+    "language_code": "sk",
+    "language_en": "Slovak",
+    "autonym": "Slovenčina",
+    "script": "Latin",
+    "notes": ""
+  },
+  {
+    "language_code": "sl",
+    "language_en": "Slovenian",
+    "autonym": "Slovenščina",
+    "script": "Latin",
+    "notes": ""
+  },
+  {
+    "language_code": "sv",
+    "language_en": "Swedish",
+    "autonym": "Svenska",
+    "script": "Latin",
+    "notes": ""
+  },
+  {
+    "language_code": "tr",
+    "language_en": "Turkish",
+    "autonym": "Türkçe",
+    "script": "Latin",
+    "notes": ""
+  }
+]

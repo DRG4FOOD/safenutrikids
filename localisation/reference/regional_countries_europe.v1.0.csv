@@ -1,0 +1,29 @@
+﻿local_name,country_en,ISO_31661_alpha2,ISO_31661_num,country_uri
+Österreich,Austria,AT,40,http://publications.europa.eu/resource/authority/country/AUT
+België / Belgique / Belgien,Belgium,BE,56,http://publications.europa.eu/resource/authority/country/BEL
+България,Bulgaria,BG,100,http://publications.europa.eu/resource/authority/country/BGR
+Hrvatska,Croatia,HR,191,http://publications.europa.eu/resource/authority/country/HRV
+Κύπρος / Kıbrıs,Cyprus,CY,196,http://publications.europa.eu/resource/authority/country/CYP
+Česko,Czechia,CZ,203,http://publications.europa.eu/resource/authority/country/CZE
+Danmark,Denmark,DK,208,http://publications.europa.eu/resource/authority/country/DNK
+Eesti,Estonia,EE,233,http://publications.europa.eu/resource/authority/country/EST
+Suomi,Finland,FI,246,http://publications.europa.eu/resource/authority/country/FIN
+France,France,FR,250,http://publications.europa.eu/resource/authority/country/FRA
+Deutschland,Germany,DE,276,http://publications.europa.eu/resource/authority/country/DEU
+Ελλάδα,Greece,GR,300,http://publications.europa.eu/resource/authority/country/GRC
+Magyarország,Hungary,HU,348,http://publications.europa.eu/resource/authority/country/HUN
+Éire / Ireland,Ireland,IE,372,http://publications.europa.eu/resource/authority/country/IRL
+Italia,Italy,IT,380,http://publications.europa.eu/resource/authority/country/ITA
+Latvija,Latvia,LV,428,http://publications.europa.eu/resource/authority/country/LVA
+Lietuva,Lithuania,LT,440,http://publications.europa.eu/resource/authority/country/LTU
+Lëtzebuerg / Luxembourg / Luxemburg,Luxembourg,LU,442,http://publications.europa.eu/resource/authority/country/LUX
+Malta,Malta,MT,470,http://publications.europa.eu/resource/authority/country/MLT
+Nederland,Netherlands,NL,528,http://publications.europa.eu/resource/authority/country/NLD
+Polska,Poland,PL,616,http://publications.europa.eu/resource/authority/country/POL
+Portugal,Portugal,PT,620,http://publications.europa.eu/resource/authority/country/PRT
+România,Romania,RO,642,http://publications.europa.eu/resource/authority/country/ROU
+Slovensko,Slovakia,SK,703,http://publications.europa.eu/resource/authority/country/SVK
+Slovenija,Slovenia,SI,705,http://publications.europa.eu/resource/authority/country/SVN
+España,Spain,ES,724,http://publications.europa.eu/resource/authority/country/ESP
+Sverige,Sweden,SE,752,http://publications.europa.eu/resource/authority/country/SWE
+Türkiye,Turkey,TR,792,http://publications.europa.eu/resource/authority/country/TUR

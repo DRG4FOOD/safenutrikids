@@ -1,0 +1,198 @@
+[
+  {
+    "local_name": "Österreich",
+    "country_en": "Austria",
+    "ISO_31661_alpha2": "AT",
+    "ISO_31661_num": 40,
+    "country_uri": "http://publications.europa.eu/resource/authority/country/AUT"
+  },
+  {
+    "local_name": "België / Belgique / Belgien",
+    "country_en": "Belgium",
+    "ISO_31661_alpha2": "BE",
+    "ISO_31661_num": 56,
+    "country_uri": "http://publications.europa.eu/resource/authority/country/BEL"
+  },
+  {
+    "local_name": "България",
+    "country_en": "Bulgaria",
+    "ISO_31661_alpha2": "BG",
+    "ISO_31661_num": 100,
+    "country_uri": "http://publications.europa.eu/resource/authority/country/BGR"
+  },
+  {
+    "local_name": "Hrvatska",
+    "country_en": "Croatia",
+    "ISO_31661_alpha2": "HR",
+    "ISO_31661_num": 191,
+    "country_uri": "http://publications.europa.eu/resource/authority/country/HRV"
+  },
+  {
+    "local_name": "Κύπρος / Kıbrıs",
+    "country_en": "Cyprus",
+    "ISO_31661_alpha2": "CY",
+    "ISO_31661_num": 196,
+    "country_uri": "http://publications.europa.eu/resource/authority/country/CYP"
+  },
+  {
+    "local_name": "Česko",
+    "country_en": "Czechia",
+    "ISO_31661_alpha2": "CZ",
+    "ISO_31661_num": 203,
+    "country_uri": "http://publications.europa.eu/resource/authority/country/CZE"
+  },
+  {
+    "local_name": "Danmark",
+    "country_en": "Denmark",
+    "ISO_31661_alpha2": "DK",
+    "ISO_31661_num": 208,
+    "country_uri": "http://publications.europa.eu/resource/authority/country/DNK"
+  },
+  {
+    "local_name": "Eesti",
+    "country_en": "Estonia",
+    "ISO_31661_alpha2": "EE",
+    "ISO_31661_num": 233,
+    "country_uri": "http://publications.europa.eu/resource/authority/country/EST"
+  },
+  {
+    "local_name": "Suomi",
+    "country_en": "Finland",
+    "ISO_31661_alpha2": "FI",
+    "ISO_31661_num": 246,
+    "country_uri": "http://publications.europa.eu/resource/authority/country/FIN"
+  },
+  {
+    "local_name": "France",
+    "country_en": "France",
+    "ISO_31661_alpha2": "FR",
+    "ISO_31661_num": 250,
+    "country_uri": "http://publications.europa.eu/resource/authority/country/FRA"
+  },
+  {
+    "local_name": "Deutschland",
+    "country_en": "Germany",
+    "ISO_31661_alpha2": "DE",
+    "ISO_31661_num": 276,
+    "country_uri": "http://publications.europa.eu/resource/authority/country/DEU"
+  },
+  {
+    "local_name": "Ελλάδα",
+    "country_en": "Greece",
+    "ISO_31661_alpha2": "GR",
+    "ISO_31661_num": 300,
+    "country_uri": "http://publications.europa.eu/resource/authority/country/GRC"
+  },
+  {
+    "local_name": "Magyarország",
+    "country_en": "Hungary",
+    "ISO_31661_alpha2": "HU",
+    "ISO_31661_num": 348,
+    "country_uri": "http://publications.europa.eu/resource/authority/country/HUN"
+  },
+  {
+    "local_name": "Éire / Ireland",
+    "country_en": "Ireland",
+    "ISO_31661_alpha2": "IE",
+    "ISO_31661_num": 372,
+    "country_uri": "http://publications.europa.eu/resource/authority/country/IRL"
+  },
+  {
+    "local_name": "Italia",
+    "country_en": "Italy",
+    "ISO_31661_alpha2": "IT",
+    "ISO_31661_num": 380,
+    "country_uri": "http://publications.europa.eu/resource/authority/country/ITA"
+  },
+  {
+    "local_name": "Latvija",
+    "country_en": "Latvia",
+    "ISO_31661_alpha2": "LV",
+    "ISO_31661_num": 428,
+    "country_uri": "http://publications.europa.eu/resource/authority/country/LVA"
+  },
+  {
+    "local_name": "Lietuva",
+    "country_en": "Lithuania",
+    "ISO_31661_alpha2": "LT",
+    "ISO_31661_num": 440,
+    "country_uri": "http://publications.europa.eu/resource/authority/country/LTU"
+  },
+  {
+    "local_name": "Lëtzebuerg / Luxembourg / Luxemburg",
+    "country_en": "Luxembourg",
+    "ISO_31661_alpha2": "LU",
+    "ISO_31661_num": 442,
+    "country_uri": "http://publications.europa.eu/resource/authority/country/LUX"
+  },
+  {
+    "local_name": "Malta",
+    "country_en": "Malta",
+    "ISO_31661_alpha2": "MT",
+    "ISO_31661_num": 470,
+    "country_uri": "http://publications.europa.eu/resource/authority/country/MLT"
+  },
+  {
+    "local_name": "Nederland",
+    "country_en": "Netherlands",
+    "ISO_31661_alpha2": "NL",
+    "ISO_31661_num": 528,
+    "country_uri": "http://publications.europa.eu/resource/authority/country/NLD"
+  },
+  {
+    "local_name": "Polska",
+    "country_en": "Poland",
+    "ISO_31661_alpha2": "PL",
+    "ISO_31661_num": 616,
+    "country_uri": "http://publications.europa.eu/resource/authority/country/POL"
+  },
+  {
+    "local_name": "Portugal",
+    "country_en": "Portugal",
+    "ISO_31661_alpha2": "PT",
+    "ISO_31661_num": 620,
+    "country_uri": "http://publications.europa.eu/resource/authority/country/PRT"
+  },
+  {
+    "local_name": "România",
+    "country_en": "Romania",
+    "ISO_31661_alpha2": "RO",
+    "ISO_31661_num": 642,
+    "country_uri": "http://publications.europa.eu/resource/authority/country/ROU"
+  },
+  {
+    "local_name": "Slovensko",
+    "country_en": "Slovakia",
+    "ISO_31661_alpha2": "SK",
+    "ISO_31661_num": 703,
+    "country_uri": "http://publications.europa.eu/resource/authority/country/SVK"
+  },
+  {
+    "local_name": "Slovenija",
+    "country_en": "Slovenia",
+    "ISO_31661_alpha2": "SI",
+    "ISO_31661_num": 705,
+    "country_uri": "http://publications.europa.eu/resource/authority/country/SVN"
+  },
+  {
+    "local_name": "España",
+    "country_en": "Spain",
+    "ISO_31661_alpha2": "ES",
+    "ISO_31661_num": 724,
+    "country_uri": "http://publications.europa.eu/resource/authority/country/ESP"
+  },
+  {
+    "local_name": "Sverige",
+    "country_en": "Sweden",
+    "ISO_31661_alpha2": "SE",
+    "ISO_31661_num": 752,
+    "country_uri": "http://publications.europa.eu/resource/authority/country/SWE"
+  },
+  {
+    "local_name": "Türkiye",
+    "country_en": "Turkey",
+    "ISO_31661_alpha2": "TR",
+    "ISO_31661_num": 792,
+    "country_uri": "http://publications.europa.eu/resource/authority/country/TUR"
+  }
+]

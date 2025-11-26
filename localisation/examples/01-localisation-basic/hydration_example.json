@@ -1,0 +1,20 @@
+{
+  "hydration_basics": [
+    {
+      "id": "hydration_en_child_6_8",
+      "language": "en",
+      "country": "TR",
+      "age_min": 6,
+      "age_max": 8,
+      "payload": "Drinking water regularly helps you stay focused at school."
+    },
+    {
+      "id": "hydration_tr_child_6_8",
+      "language": "tr",
+      "country": "TR",
+      "age_min": 6,
+      "age_max": 8,
+      "payload": "Su içmek, okulda dikkatini toplamana yardımcı olur."
+    }
+  ]
+}

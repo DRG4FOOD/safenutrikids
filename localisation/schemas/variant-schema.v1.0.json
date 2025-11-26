@@ -1,0 +1,52 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://github.com/drg4food/safenutrikids/localisation/schemas/variant.schema.v1.0.json",
+  "title": "Localisation content variant",
+  "description": "Single localised variant of a content item used by the SafeNutriKids localisation layer.",
+  "type": "object",
+  "version": "1.0",
+  "required": ["id", "language", "payload"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier of this variant within the catalogue."
+    },
+    "language": {
+      "type": "string",
+      "description": "ISO 639-1 language code (e.g. 'en', 'tr', 'de').",
+      "pattern": "^[a-z]{2}$"
+    },
+    "country": {
+      "type": "string",
+      "description": "Optional ISO 3166-1 alpha-2 country code (e.g. 'TR', 'EE').",
+      "pattern": "^[A-Z]{2}$"
+    },
+    "culture": {
+      "type": "string",
+      "description": "Optional cultural tag (e.g. 'muslim_majority', 'central_europe')."
+    },
+    "diet": {
+      "type": "string",
+      "description": "Optional dietary pattern tag (e.g. 'omnivore', 'vegetarian')."
+    },
+    "age_min": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Optional minimum age (inclusive) the variant is suitable for."
+    },
+    "age_max": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Optional maximum age (inclusive) the variant is suitable for."
+    },
+    "payload": {
+      "description": "The actual content for this variant (text, HTML, JSON, etc.).",
+      "oneOf": [
+        { "type": "string" },
+        { "type": "object" },
+        { "type": "array" }
+      ]
+    }
+  },
+  "additionalProperties": false
+}
