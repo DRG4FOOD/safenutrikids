@@ -1,5 +1,6 @@
 # SafeNutriKids
 
+![DRG4FOOD](https://img.shields.io/badge/DRG4FOOD-project-green)
 ![Release](https://img.shields.io/github/v/release/DRG4FOOD/safenutrikids)
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python Version](https://img.shields.io/badge/python-3.10+-blue.svg)
