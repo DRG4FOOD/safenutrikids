@@ -44,6 +44,7 @@ src/safenutrikids/localisation/
   Optional helper datasets (not required by the engine):
   - `regional_countries_europe.*` – EU+TR country codes and names  
   - `regional_languages_europe.*` – EU+TR language codes, names and autonyms  
+  - `dietary_attributes.v1.0.*` – structured list of dietary patterns and constraints inspired by the Open Food Facts dietary references
 
 - **`examples/`**  
   Runnable examples:

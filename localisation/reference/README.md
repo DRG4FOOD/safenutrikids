@@ -1,9 +1,13 @@
-# Regional Country and Language Reference (Europe + Turkey)
+# Regional Country and Language and Diestary Reference (Europe + Turkey)
 
-This folder provides an optional reference dataset to support developers who wish to localise content using the **SafeNutriKids Localisation Layer**.  
-The dataset contains a curated list of EU Member States plus Turkey, with local names, English names, ISO country codes, and authoritative EU URIs.
+This folder provides **optional reference datasets** to support developers who wish to localise content using the **SafeNutriKids Localisation Layer**.  
+These datasets are **not required** by the localisation engine, but they are highly useful when building catalogues, ensuring metadata consistency, or implementing culturally sensitive content selection.
 
-These files are **not required** by the localisation engine but serve as convenient lookup tables when building catalogues or implementing culturally aware content selection.
+The reference collection currently includes:
+
+- **Regional countries and country codes** (Europe + Turkey)  
+- **Languages, autonyms and scripts** (Europe + Turkey)  
+- **Dietary patterns and constraints**, inspired by the *Open Food Facts* “These diets” project note
 
 ---
 
@@ -47,29 +51,77 @@ Machine-readable version for:
 - automatically generating language options  
 
 ---
-## Source & Licensing
 
-The country names, codes, and URIs are derived from the **EU Publications
-Office** controlled vocabularies:
+## 3. Dietary Attributes Reference
 
-<https://publications.europa.eu/en/web/eu-vocabularies>
+This dataset provides a structured list of **dietary patterns**, **vegetarian/vegan variants**, and **dietary constraints** to support culturally aware nutrition personalisation.
 
-These datasets are licensed under **CC BY 4.0**, which permits reuse with attribution.
+The dataset is inspired by the  
+**Open Food Facts “These diets” project note**:  
+https://wiki.openfoodfacts.org/These_diets
 
-Additional formatting, local-name enrichment, and data cleaning were added as part of the DRG4FOOD Toolbox contribution.
+It includes well-known dietary patterns such as:
+
+- Vegetarian, vegan  
+- Ovo-vegetarian, lacto-vegetarian, ovo-lacto-vegetarian  
+- Buddhist vegetarianism, Jain vegetarianism  
+- Raw veganism, raw foodism  
+- Fruitarianism  
+- Flexitarian, pescatarian  
+- Macrobiotic diet  
+- Kangatarianism  
+- Gluten-free, lactose-free  
+- Omnivore (default fallback)
+
+### `dietary_attributes.v1.0.csv`
+Human-readable dataset with:
+
+- `id` — unique identifier  
+- `parent_id` — optional hierarchy (e.g. vegan ← vegetarian)  
+- `description_en` — short, clear dietary description  
+- `category` — e.g. *vegetarian_pattern*, *diet_pattern*, *diet_constraint*  
+- `public_domain_definition` — whether the diet has an open, public definition  
+- `diet_society` / `diet_society_url` — societies or certification bodies when applicable  
+- `rule_set_notes` — summary of known rule-sets  
+- `open_food_facts_source` — provenance link to Open Food Facts documentation  
+
+### `dietary_attributes.v1.0.json`
+Machine-readable JSON version for:
+
+- validating dietary metadata  
+- enabling structured personalisation logic  
+- building user-facing selectors linked to dietary needs  
+- integrating into recommendation rules or AI prompting flows  
+
+> **Important:** These dietary patterns are provided strictly as **optional FOOD-rule metadata**.  
+> They are **not** intended as medical guidance or as identity labels.
 
 ---
 
-## How to Use This Reference
+## Source & Licensing
 
-Developers can use this reference data to:
+Country and language data are derived from the **EU Publications Office** controlled vocabularies:  
+<https://publications.europa.eu/en/web/eu-vocabularies>
 
-- Build consistent **ContentVariant** catalogues  
-- Validate metadata before ingestion  
-- Create **language/country selectors** in UIs  
-- Integrate culturally-aware **AI prompting** or personalisation logic  
-- Provide culturally aligned content recommendations  
+Diet patterns draw on public documentation from **Open Food Facts**, including:  
+https://wiki.openfoodfacts.org/These_diets  
+and related allergen/dietary-category pages.
 
-These reference files are **optional but recommended** for any implementation that requires structured, culturally-aware localisation.
+All datasets are licensed under **CC BY 4.0**, enabling reuse with attribution.
+
+Additional formatting, curation, and validation were added as part of the DRG4FOOD Toolbox contribution.
+---
+
+## How to Use These Reference Datasets
+
+Developers may use these optional datasets to:
+
+- Build **consistent ContentVariant catalogues**  
+- Validate localisation metadata before ingestion  
+- Create **country/language/diet selectors** in applications  
+- Support **culturally and diet-aware AI personalisation**  
+- Improve metadata quality across DRG4FOOD components  
+
+These files are **optional but recommended** to be buiklt upon for implementations that require structured, culturally sensitive localisation and dietary attributes.
 
 ---

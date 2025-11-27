@@ -1,0 +1,205 @@
+{
+  "version": "1.0",
+  "title": "SafeNutriKids dietary attributes reference",
+  "description": "Optional reference list of dietary patterns and constraints aligned with Open Food Facts 'These diets' and related documentation.",
+  "items": [
+    {
+      "id": "vegetarian",
+      "parent_id": "vegetarian",
+      "description_en": "Diet that excludes meat, fish, and poultry.",
+      "category": "vegetarian_pattern",
+      "public_domain_definition": "yes",
+      "diet_society": "European Vegetarian Union (V-Label)",
+      "diet_society_url": "https://www.euroveg.eu/   https://www.v-label.com",
+      "rule_set_notes": "Core parent category for vegetarian variants. FOOD rules only, not an identity label - rules maintained by EVU/V-Label.",
+      "open_food_facts_source": "https://wiki.openfoodfacts.org/These_diets#Vegetarianism"
+    },
+    {
+      "id": "pescatarian",
+      "parent_id": "vegetarian",
+      "description_en": "Mostly vegetarian diet that includes fish and seafood but excludes other meat.",
+      "category": "vegetarian_pattern",
+      "public_domain_definition": "yes",
+      "diet_society": "no",
+      "diet_society_url": "",
+      "rule_set_notes": "Common public-health category but no single certifying body. Best treated as a soft preference rather than a strict rule set.",
+      "open_food_facts_source": "General nutrition literature; discussed alongside vegetarian/vegan patterns in Open Food Facts community resources."
+    },
+    {
+      "id": "flexitarian",
+      "parent_id": "vegetarian",
+      "description_en": "Mostly plant-based diet that occasionally includes meat or fish.",
+      "category": "vegetarian_pattern",
+      "public_domain_definition": "yes",
+      "diet_society": "no",
+      "diet_society_url": "",
+      "rule_set_notes": "Described in public health and sustainability literature rather than in formal labelling rules. Represents a gradual shift towards plant-forward eating.",
+      "open_food_facts_source": "General nutrition and sustainability literature; occasionally referenced in Open Food Facts community discussions."
+    },
+    {
+      "id": "ovo_vegetarian",
+      "parent_id": "vegetarian",
+      "description_en": "Vegetarian diet that allows eggs but not meat or fish.",
+      "category": "vegetarian_pattern",
+      "public_domain_definition": "yes",
+      "diet_society": "European Vegetarian Union (V-Label)",
+      "diet_society_url": "https://www.euroveg.eu/   https://www.v-label.com",
+      "rule_set_notes": "Clear inclusion of eggs while excluding meat and fish - variant of vegetarianism useful where egg consumption is explicitly allowed.",
+      "open_food_facts_source": "https://wiki.openfoodfacts.org/These_diets#Vegetarianism"
+    },
+    {
+      "id": "lacto_vegetarian",
+      "parent_id": "vegetarian",
+      "description_en": "Vegetarian diet that allows dairy products but not meat or fish.",
+      "category": "vegetarian_pattern",
+      "public_domain_definition": "yes",
+      "diet_society": "European Vegetarian Union (V-Label)",
+      "diet_society_url": "https://www.euroveg.eu/   https://www.v-label.com",
+      "rule_set_notes": "Clear inclusion of dairy while excluding meat and fish - common in several regions; useful for labelling and personalisation.",
+      "open_food_facts_source": "https://wiki.openfoodfacts.org/These_diets#Vegetarianism"
+    },
+    {
+      "id": "ovo_lacto_vegetarian",
+      "parent_id": "vegetarian",
+      "description_en": "Vegetarian diet that allows eggs and dairy products but not meat or fish.",
+      "category": "vegetarian_pattern",
+      "public_domain_definition": "yes",
+      "diet_society": "European Vegetarian Union (V-Label)",
+      "diet_society_url": "https://www.euroveg.eu/   https://www.v-label.com",
+      "rule_set_notes": "Standard vegetarian label for products containing egg and/or dairy but no meat or fish.",
+      "open_food_facts_source": "https://wiki.openfoodfacts.org/These_diets#Vegetarianism"
+    },
+    {
+      "id": "buddhist_vegetarianism",
+      "parent_id": "vegetarian",
+      "description_en": "Vegetarian diet that also avoids certain 'fetid' or pungent vegetables (e.g. garlic, onions)",
+      "category": "vegetarian_pattern",
+      "public_domain_definition": "yes",
+      "diet_society": "partially",
+      "diet_society_url": "",
+      "rule_set_notes": "Implemented purely via ingredient groups; cultural and doctrinal variations exist - common vegetarian variant in Europe and India",
+      "open_food_facts_source": "https://wiki.openfoodfacts.org/These_diets#Buddhist_vegetarianism"
+    },
+    {
+      "id": "jain_vegetarianism",
+      "parent_id": "vegetarian",
+      "description_en": "Strict vegetarian diet excluding root vegetables such as onions, garlic, potatoes and some tubers.",
+      "category": "vegetarian_pattern",
+      "public_domain_definition": "yes",
+      "diet_society": "partially",
+      "diet_society_url": "",
+      "rule_set_notes": "Excluding meat, alcohol, honey, butter, funghi, root vegetables or spinach as well as fish and dairy. Modelled purely as food rules not as a religious identity.",
+      "open_food_facts_source": "https://wiki.openfoodfacts.org/These_diets#Jain_vegetarianism"
+    },
+    {
+      "id": "vegan",
+      "parent_id": "vegetarian",
+      "description_en": "Diet that excludes all animal products, including meat, fish, dairy, eggs, honey, and gelatine.",
+      "category": "vegetarian_pattern",
+      "public_domain_definition": "yes",
+      "diet_society": "European Vegetarian Union (V-Label)",
+      "diet_society_url": "https://www.euroveg.eu/   https://www.v-label.com",
+      "rule_set_notes": "Widely standardised vegan rules via V-Label and similar schemes.",
+      "open_food_facts_source": "https://wiki.openfoodfacts.org/These_diets#Vegetarianism"
+    },
+    {
+      "id": "raw_veganism",
+      "parent_id": "vegetarian",
+      "description_en": "Vegan diet where foods are eaten raw or only very gently heated.",
+      "category": "vegetarian_pattern",
+      "public_domain_definition": "yes",
+      "diet_society": "partially",
+      "diet_society_url": "",
+      "rule_set_notes": "Combines vegan ingredient rules with a raw-food preparation constraint",
+      "open_food_facts_source": "https://wiki.openfoodfacts.org/These_diets#Raw_veganism"
+    },
+    {
+      "id": "fruitarianism",
+      "parent_id": "vegetarian",
+      "description_en": "Diet based mainly or exclusively on fruits, sometimes with nuts and seeds.",
+      "category": "diet_pattern",
+      "public_domain_definition": "yes",
+      "diet_society": "no",
+      "diet_society_url": "",
+      "rule_set_notes": "Highly restrictive; defined largely by inclusion of fruit, nuts, and seeds and exclusion of most other food groups.",
+      "open_food_facts_source": "https://wiki.openfoodfacts.org/These_diets#Fruitarianism"
+    },
+    {
+      "id": "sattvic_diet",
+      "parent_id": "vegetarian",
+      "description_en": "Traditional plant-forward pattern emphasising fresh, minimally processed foods and some dairy.",
+      "category": "diet_pattern",
+      "public_domain_definition": "yes",
+      "diet_society": "partially",
+      "diet_society_url": "",
+      "rule_set_notes": "Rules come from traditional texts and focus on food qualities and freshness.",
+      "open_food_facts_source": "https://wiki.openfoodfacts.org/These_diets#Sattvic_diet"
+    },
+    {
+      "id": "macrobiotic_diet",
+      "parent_id": "",
+      "description_en": "Diet focusing on whole grains, local vegetables and low-processed foods, often limiting animal products.",
+      "category": "diet_pattern",
+      "public_domain_definition": "yes",
+      "diet_society": "partially",
+      "diet_society_url": "",
+      "rule_set_notes": "Described in public sources but with some variation between schools - best treated as a general pattern",
+      "open_food_facts_source": "https://wiki.openfoodfacts.org/These_diets#Macrobiotic_diet"
+    },
+    {
+      "id": "kangatarianism",
+      "parent_id": "",
+      "description_en": "Diet similar to vegetarianism but allowing kangaroo meat as the only meat exception.",
+      "category": "diet_pattern",
+      "public_domain_definition": "yes",
+      "diet_society": "no",
+      "diet_society_url": "",
+      "rule_set_notes": "Culturally specific and mostly illustrative; interesting example of selective meat inclusion.",
+      "open_food_facts_source": "https://wiki.openfoodfacts.org/These_diets#Kangatarianism"
+    },
+    {
+      "id": "omnivore",
+      "parent_id": "",
+      "description_en": "No specific dietary restriction; may eat meat, fish and animal products.",
+      "category": "diet_pattern",
+      "public_domain_definition": "yes",
+      "diet_society": "no",
+      "diet_society_url": "",
+      "rule_set_notes": "Useful as a default when no dietary constraints are set.",
+      "open_food_facts_source": "https://wiki.openfoodfacts.org/Diets"
+    },
+    {
+      "id": "raw_foodism",
+      "parent_id": "",
+      "description_en": "Diet that excludes foods heated above a certain temperature (often around 48°C).",
+      "category": "diet_pattern",
+      "public_domain_definition": "yes",
+      "diet_society": "no",
+      "diet_society_url": "",
+      "rule_set_notes": "Focused on preparation temperature rather than the ingredient list; not easily machine-detectable from labels.",
+      "open_food_facts_source": "https://wiki.openfoodfacts.org/These_diets"
+    },
+    {
+      "id": "gluten_free",
+      "parent_id": "",
+      "description_en": "Avoids gluten-containing cereals and derived ingredients.",
+      "category": "diet_constraint",
+      "public_domain_definition": "yes",
+      "diet_society": "yes",
+      "diet_society_url": "https://www.aoecs.org",
+      "rule_set_notes": "Open Food Facts tracks gluten and allergens; this category should be used carefully and is not medical advice.",
+      "open_food_facts_source": "https://wiki.openfoodfacts.org/Category:Gluten"
+    },
+    {
+      "id": "lactose_free",
+      "parent_id": "",
+      "description_en": "Avoids lactose; may or may not allow other dairy components depending on context.",
+      "category": "diet_constraint",
+      "public_domain_definition": "yes",
+      "diet_society": "partially",
+      "diet_society_url": "https://lactosa.org",
+      "rule_set_notes": "Open Food Facts allergen and lactose-related tags; national dietary guidance.",
+      "open_food_facts_source": "https://wiki.openfoodfacts.org/Lactose"
+    }
+  ]
+}
